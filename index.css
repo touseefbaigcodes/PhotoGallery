@@ -1,0 +1,21 @@
+.container{
+    height: 600px;
+    width: 100%;
+    background: #b87c7c;
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+  grid-template-rows: repeat(10, 100px);
+  gap: 7px;
+}
+
+.item{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.3);
+}
+
+
+
+ 
